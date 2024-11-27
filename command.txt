@@ -1,0 +1,26 @@
+CUDA_VISIBLE_DEVICES=0 python main.py
+
+
+
+watch -n 0.1 -d nvidia-smi
+
+
+matplotlib==3.9.2
+numpy==1.26.4
+opencv-python==4.10.0.84
+pandas==2.2.3
+parameterized==0.9.0
+peft==0.13.2
+pillow @ file:///croot/pillow_1721059439630/work
+pytorchvideo==0.1.5
+scikit-learn==1.5.2
+scipy==1.13.1
+soundfile==0.12.1
+timm==0.6.7
+tokenizers==0.13.3
+torch==1.13.1
+torchaudio==0.13.1
+torchmetrics==1.5.1
+torchvision==0.14.1
+tqdm==4.66.6
+transformers==4.30.2
